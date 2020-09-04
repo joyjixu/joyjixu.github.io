@@ -13,6 +13,13 @@ h2 {
     color: indianred;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 16px;
+    color: wheat;
+}
+
+
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -24,4 +31,15 @@ p {
 
 .child:hover {
     background-color: azure;
+}
+
+.button {
+    font-weight: bold;
+    flex-basis: auto;
+    background-color: lightcoral;
+}
+
+.button:hover {
+    color: indigo;
+    transition: cubic-bezier();
 }
