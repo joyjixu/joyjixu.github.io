@@ -57,4 +57,5 @@ child {
     text-align: center;
     background-color: darkolivegreen;
     flex: 0 0 100%;
+    display: block;
 }

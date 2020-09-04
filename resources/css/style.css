@@ -24,6 +24,9 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.centered {
+    text-align: center;
+}
 .container {
     display: flex;
     justify-items: center;
@@ -35,9 +38,10 @@ p {
 
 .button {
     font-weight: bold;
+    padding : 15px;
     flex-basis: auto;
     background-color: lightcoral;
-    text-align: center;
+    display : block;
 }
 
 .button:hover {
