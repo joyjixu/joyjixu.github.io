@@ -5,13 +5,14 @@
     font-weight: bold;
     color: lavender;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
     font-weight: bold;
     font-size: 32px;
     color: white;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -20,22 +21,24 @@ h3 {
     color: goldenrod;
 }
 
-
-p,ul {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.centered {
+    text-align: center;
 }
+
+
 
 .container {
     display: flex;
+    flex-flow: wrap;
     justify-items: center;
 }
 
 child {
-    display: inline-flex;
+    padding : 5%;
 }
 
 .child:hover {
-    background-color: azure;
+    background-color: lavender;
 }
 
 .button {
@@ -50,6 +53,7 @@ child {
 }
 
 .title {
+    padding : 10px;
     text-align: center;
     background-color: darkolivegreen;
     flex: 0 0 100%;
