@@ -10,23 +10,28 @@
 h2 {
     font-weight: bold;
     font-size: 32px;
+    color: white;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 16px;
     color: goldenrod;
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 16px;
-    color: wheat;
-}
 
-
-p {
+p,ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
     display: flex;
     justify-items: center;
+}
+
+child {
+    display: inline-flex;
 }
 
 .child:hover {
@@ -40,6 +45,11 @@ p {
 }
 
 .button:hover {
-    color: green;
+    color: darkolivegreen;
     transition: cubic-bezier();
+}
+
+.title {
+    text-align: center;
+    background-color: darkolivegreen;
 }
