@@ -37,6 +37,7 @@ p {
     font-weight: bold;
     flex-basis: auto;
     background-color: lightcoral;
+    text-align: center;
 }
 
 .button:hover {
