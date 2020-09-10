@@ -64,9 +64,7 @@ header li a:hover {
 }
 
 .centered {
-
     text-align: center;
-    width: 100%;
 }
 .container {
     display: flex;
@@ -75,6 +73,7 @@ header li a:hover {
     align-content: center;
     align-items: center;
     flex-flow: wrap;
+    width: 100%;
 }
 
 .child:hover {
@@ -91,12 +90,13 @@ header li a:hover {
 }
 
 
-.button {
+ .button {
     font-weight: bold;
+    margin: 2%;
     padding : 15px;
-    flex-basis: auto;
     background-color: lightcoral;
-    display : block;
+    width: fit-content;
+    border-radius: 10%;
     
 }
 
