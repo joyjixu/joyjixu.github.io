@@ -1,4 +1,7 @@
-* {font-family: 'Courier New', Courier, monospace;}
+
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Roboto+Condensed&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+* {font-family: 'Roboto Condensed', sans-serif;}
 
 .header {
     font-size: 50px;
@@ -6,6 +9,7 @@
     color: lavender;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
 }
 
 h2 {
@@ -13,12 +17,14 @@ h2 {
     font-size: 32px;
     color: white;
     text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
 }
 
 h3 {
     font-weight: bold;
     font-size: 16px;
     color: goldenrod;
+    font-family: 'Roboto Slab', serif;
 }
 
 .centered {
