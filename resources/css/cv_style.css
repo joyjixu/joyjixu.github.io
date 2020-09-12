@@ -43,6 +43,10 @@ child {
     padding : 5%;
 }
 
+.container .child {
+    flex-direction: column;
+}
+
 .child:hover {
     background-color: lavender;
 }
